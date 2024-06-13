@@ -4,7 +4,7 @@ class About extends Controller
 {
     public function index($nama = "rafi", $cita = "mao")
     {
-        $data['judul'] = "Halaman About";
+        $data['title'] = "Halaman About";
         $data['nama'] = $nama;
         $data["cita"] = $cita;
 
