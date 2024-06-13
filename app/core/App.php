@@ -11,7 +11,7 @@ class App
         $url = $this->parseURL();
 
         // controller
-        $controllerName = ucfirst($url[0] ?? '') ?: $this->controller; // Jika tidak ada yang diberikan, gunakan default
+        $controllerName = ucfirst($url[0] ?? '') ?: $this->controller; 
         $controllerFile = '../app/controllers/' . $controllerName . '.php';
         if(file_exists($controllerFile)) {
             require_once $controllerFile;
@@ -32,6 +32,7 @@ class App
 
         // params
         $this->params = $url ? array_values($url) : [];
+
 
         // call method
         call_user_func_array([$this->controller, $this->method], $this->params);
