@@ -20,4 +20,24 @@ class Admin extends Controller
         $this->view("admin/guru/index");
         $this->view("templates/footer");
     }
+
+    // page kelas
+    public function kelas()
+    {
+        $data['title'] = 'Halaman Kelas';
+
+        $this->view("templates/header", $data);
+        $this->view("admin/kelas/index");
+        $this->view("templates/footer");
+    }
+
+    // page murid
+    public function murid()
+    {
+        $data['title'] = 'Halaman guru';
+
+        $this->view("templates/header", $data);
+        $this->view("admin/guru/index");
+        $this->view("templates/footer");
+    }
 }
