@@ -37,7 +37,7 @@ class Admin extends Controller
         $data['title'] = 'Halaman guru';
 
         $this->view("templates/header", $data);
-        $this->view("admin/guru/index");
+        $this->view("admin/murid/index");
         $this->view("templates/footer");
     }
 }
