@@ -36,9 +36,9 @@
          <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
              <div class="bg-white py-2 collapse-inner rounded">
 
-                 <a class="collapse-item" href="login.html">Manajement Guru</a>
-                 <a class="collapse-item" href="register.html">Manajement Kelas</a>
-                 <a class="collapse-item" href="forgot-password.html">Manajement Murid</a>
+                 <a class="collapse-item" href="<?= BURL ?>/admin/guru">Manajement Guru</a>
+                 <a class="collapse-item" href="<?= BURL ?>/admin/kelas">Manajement Kelas</a>
+                 <a class="collapse-item" href="<?= BURL ?>/admin/murid">Manajement Murid</a>
              </div>
          </div>
      </li>
