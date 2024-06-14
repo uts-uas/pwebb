@@ -1,3 +1,3 @@
 <?php
 
-define("BURL", "http://localhost/pwebb/public/");
+define("BURL", "http://localhost/pwebb/public");
