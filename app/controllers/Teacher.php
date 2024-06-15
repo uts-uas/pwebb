@@ -10,4 +10,22 @@ class Teacher extends Controller
         $this->view("teacher/index");
         $this->view("templates/footer");
     }
+
+    public function absensi()
+    {
+        $data['title'] = 'Halaman Absensi';
+
+        $this->view("templates/header", $data);
+        $this->view("teacher/absensi/index");
+        $this->view("templates/footer");
+    }
+
+    public function rekap()
+    {
+        $data['title'] = 'Halaman Rekap Absensi';
+
+        $this->view("templates/header", $data);
+        $this->view("teacher/rekap/index");
+        $this->view("templates/footer");
+    }
 }
