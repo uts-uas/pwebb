@@ -11,6 +11,7 @@ class Teacher extends Controller
         $this->view("templates/footer");
     }
 
+    // page absensi
     public function absensi()
     {
         $data['title'] = 'Halaman Absensi';
@@ -20,6 +21,7 @@ class Teacher extends Controller
         $this->view("templates/footer");
     }
 
+    // page rekap
     public function rekap()
     {
         $data['title'] = 'Halaman Rekap Absensi';
