@@ -1,14 +1,13 @@
 <?php
 
-class Home extends Controller
+class Student extends Controller
 {
-
     public function index()
     {
-        $data['title'] = 'Landing Page';
+        $data['title'] = 'Halaman Student';
 
         $this->view("templates/header", $data);
-        $this->view("home/index");
+        $this->view("student/index");
         $this->view("templates/footer");
     }
 }
