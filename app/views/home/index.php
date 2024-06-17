@@ -42,12 +42,12 @@
 
             <!-- Nav Item - Alerts -->
             <li class="nav-item">
-                <a class="nav-link text-primary" href="#">Home</a>
+                <a class="nav-link text-primary" href="#willbehappywithyou">About</a>
             </li>
 
             <!-- Nav Item - Alerts -->
             <li class="nav-item">
-                <a class="nav-link text-primary" href="#">Home</a>
+                <a class="nav-link text-primary" href="#howdoyoufeelstudywithyou">other</a>
             </li>
 
 
@@ -91,14 +91,14 @@
 
 
         <!-- Will be happy with you -->
-        <div class="bg-primary text-white p-5 my-5">
-            <div class="d-flex justify-content-around align-items-center">
+        <div class="bg-primary text-white p-5" id="willbehappywithyou">
+            <div class="d-flex justify-content-around align-items-center h-100">
                 <div class="text-left w-50">
                     <div class="title">
                         <h1 class="font-weight-bold display-4">WILL BE HAPPY WITH YOU</h1>
                     </div>
                     <div class="description mt-3 mb-5">
-                        <p class="">Talking about time, most people will consider it something trivial. For example, someone who loses his wealth will be willing to die to get it back, but when that person loses his time, will he be willing to die to get his time back? Here we discuss why humans only think about something that if we use it will disappear in an instant rather than something that is invisible but has a big impact on life.</p>
+                        <p>Talking about time, most people will consider it something trivial. For example, someone who loses his wealth will be willing to die to get it back, but when that person loses his time, will he be willing to die to get his time back? Here we discuss why humans only think about something that if we use it will disappear in an instant rather than something that is invisible but has a big impact on life.</p>
                     </div>
                 </div>
                 <div class="container">
@@ -140,7 +140,7 @@
         <!-- end -->
 
         <!-- HOW DO YOU FEEL STUDY WITH YOU -->
-        <div class="my-5 p-3">
+        <div class="my-5 p-3" id="howdoyoufeelstudywithyou">
             <div>
                 <div class="mb-3">
                     <h1 class="text-primary display-3 font-weight-bold text-center">HOW DO YOU FEEL <br> STUDY WITH YOU</h1>
