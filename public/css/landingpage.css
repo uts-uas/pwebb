@@ -1,0 +1,10 @@
+.card-img-container {
+  height: 200px; /* Atur tinggi tetap untuk semua gambar */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; /* Sembunyikan bagian gambar yang berlebih */
+}
+.card-img-container img {
+  height: 100%; /* Atur gambar agar memiliki tinggi 100% dari container */
+}

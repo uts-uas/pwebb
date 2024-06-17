@@ -67,6 +67,7 @@
 
     <!-- main -->
     <section>
+        <!-- LEARN MAKE YOU HAPPY -->
         <div class="container my-5">
             <div class="d-flex justify-content-around align-items-center">
                 <div class="text-left w-50">
@@ -86,10 +87,13 @@
                 </div>
             </div>
         </div>
+        <!-- end -->
 
-        <div class="bg-primary text-white p-5 ">
+
+        <!-- Will be happy with you -->
+        <div class="bg-primary text-white p-5 my-5">
             <div class="d-flex justify-content-around align-items-center">
-                <div class="text-left w-25">
+                <div class="text-left w-50">
                     <div class="title">
                         <h1 class="font-weight-bold display-4">WILL BE HAPPY WITH YOU</h1>
                     </div>
@@ -97,34 +101,130 @@
                         <p class="">Talking about time, most people will consider it something trivial. For example, someone who loses his wealth will be willing to die to get it back, but when that person loses his time, will he be willing to die to get his time back? Here we discuss why humans only think about something that if we use it will disappear in an instant rather than something that is invisible but has a big impact on life.</p>
                     </div>
                 </div>
-                <div class="">
+                <div class="container">
                     <div class="row mb-4">
                         <div class="col">
                             <div class="card">
-                                <img src="<?= BURL ?>/img /s1.png" alt="">
+                                <div class="card-img-container">
+                                    <img src="<?= BURL ?>/img /s2.png" alt="" class="img-fluid">
+                                </div>
                             </div>
                         </div>
                         <div class="col">
                             <div class="card">
-                                <img src="<?= BURL ?>/img /s1.png" alt="">
+                                <div class="card-img-container">
+                                    <img src="<?= BURL ?>/img /s3.png" alt="" class="img-fluid">
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="row mb-4">
                         <div class="col">
                             <div class="card">
-                                <img src="<?= BURL ?>/img /s1.png" alt="">
+                                <div class="card-img-container">
+                                    <img src="<?= BURL ?>/img /s4.png" alt="" class="img-fluid">
+                                </div>
                             </div>
                         </div>
                         <div class="col">
                             <div class="card">
-                                <img src="<?= BURL ?>/img /s1.png" alt="">
+                                <div class="card-img-container">
+                                    <img src="<?= BURL ?>/img /s1.png" alt="" class="img-fluid">
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <!-- end -->
+
+        <!-- HOW DO YOU FEEL STUDY WITH YOU -->
+        <div class="my-5 p-3">
+            <div>
+                <div class="mb-3">
+                    <h1 class="text-primary display-3 font-weight-bold text-center">HOW DO YOU FEEL <br> STUDY WITH YOU</h1>
+                </div>
+                <div>
+                    <div class="row mb-4">
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-img-container">
+                                    <img src="<?= BURL ?>/img /g1.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-img-container">
+                                    <img src="<?= BURL ?>/img /g2.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-img-container">
+                                    <img src="<?= BURL ?>/img /g3.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-img-container">
+                                    <img src="<?= BURL ?>/img /g4.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-img-container">
+                                    <img src="<?= BURL ?>/img /g5.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-img-container">
+                                    <img src="<?= BURL ?>/img /g6.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-img-container">
+                                    <img src="<?= BURL ?>/img /g7.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-img-container">
+                                    <img src="<?= BURL ?>/img /g8.png" alt="" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end -->
+
+        <!-- MEET,GROW UP AND GRADUATE TOGETHER -->
+        <div class="bg-primary text-white p-3">
+            <div class="d-flex justify-content-around align-items-center">
+                <div class="text-left w-50">
+                    <div class="title">
+                        <h1 class="font-weight-bold display-3">MEET,GROW UP AND GRADUATE TOGETHER</h1>
+                    </div>
+                </div>
+                <div>
+                    <img src="<?= BURL ?>/img /f1.png" alt="" width="400px">
+                </div>
+            </div>
+        </div>
+        <!-- end -->
 
     </section>
     <!-- end main -->
