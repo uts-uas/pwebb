@@ -32,7 +32,7 @@
     <!-- main -->
     <section>
         <!-- LEARN MAKE YOU HAPPY -->
-        <div class="container my-5">
+        <div class="container my-5" id="home">
             <div class="d-flex justify-content-around align-items-center">
                 <div class="text-left w-50" data-aos="fade-right">
                     <div class="title">
