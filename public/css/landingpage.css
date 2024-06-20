@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
 #willbehappywithyou {
   min-height: 100vh; /* Set minimum height to fill the viewport */
 }
@@ -28,4 +30,8 @@
 }
 .card-img-container img {
   height: 100%; /* Atur gambar agar memiliki tinggi 100% dari container */
+}
+
+.main-text{
+  font-family: "Caveat";
 }

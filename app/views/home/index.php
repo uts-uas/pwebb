@@ -66,10 +66,22 @@
     </li>
 
 </ul>
-
 </nav>
 
 <!-- main -->
- 
-
+ <section style="margin : -24px;">
+    <div class="position-relative h-100">
+        <img class="position-absolute top-0 z-0" src="<?= BURL ?>/img/bordertop.png" alt="" width="100%" height="400px">
+        <div class="position-absolute z-1 d-flex justify-content-between flex-row w-100 h-100" style="margin-top : 20rem">
+            <div style="margin-top : 6rem; margin-left : 10rem; font-size: 42px;" class="main-text">
+                <p class="text-dark">Learn One Thing on Many Ways</p>
+                <p class="text-dark">'cause</p>
+                <p class="text-primary"><strong>"You don't understand anything until you learn it more than one way"</strong></p>
+                <p class="text-primary">-Marvin Minsky</p>
+            </div>
+            <img style="width : 791px; height : 487px; margin-right : 50px"src="<?= BURL ?>/img/maingraphic.png" alt="">
+        </div>
+    </div>
+ </section>
+<!-- end of main -->
 </body>
