@@ -16,35 +16,18 @@
  <script src="<?= BURL ?>/js/demo/chart-pie-demo.js"></script>
 
  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+ <script src="<?= BURL ?>/js/demo/datatables-demo.js"></script>
+ <script src="<?= BURL ?>/vendor/datatables/jquery.dataTables.min.js"></script>
+ <script src="<?= BURL ?>/vendor/datatables/dataTables.bootstrap4.min.js"></script>
  <script>
      AOS.init();
  </script>
 
- <script>
-     $(document).ready(function() {
-         // Add smooth scrolling to all links
-         $("a.nav-link").on('click', function(event) {
-             if (this.hash !== "") {
-                 event.preventDefault();
-                 var hash = this.hash;
-                 $('html, body').animate({
-                     scrollTop: $(hash).offset().top
-                 }, 800, function() {
-                     window.location.hash = hash;
-                 });
-             }
-         });
 
-         // Change navbar transparency on scroll
-         $(window).scroll(function() {
-             if ($(this).scrollTop() > 50) {
-                 $('.navbar').removeClass('transparent').addClass('solid');
-             } else {
-                 $('.navbar').removeClass('solid').addClass('transparent');
-             }
-         });
-     });
- </script>
+
+
+
  </body>
 
  </html>
