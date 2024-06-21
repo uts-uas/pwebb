@@ -19,7 +19,62 @@
 
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
-                    <h1>Manajement Kelas</h1>
+
+                    <button class="btn btn-primary mb-3">
+                        Add Class
+                    </button>
+
+                    <!-- DataTales Example -->
+                    <div class="card shadow mb-4">
+                        <div class="card-header py-3">
+                            <h6 class="m-0 font-weight-bold text-primary">Tabel Kelas</h6>
+                        </div>
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                                    <thead>
+                                        <tr>
+                                            <th>ID</th>
+                                            <th>Kelas</th>
+                                            <th>Nama Guru</th>
+                                            <th>Jumlah Siswa</th>
+                                            <th>Status</th>
+                                            <th>Action</th>
+
+                                    </thead>
+                                    <tfoot>
+                                        <tr>
+                                            <th>ID</th>
+                                            <th>Nama Guru</th>
+                                            <th>Kelas</th>
+                                            <th>Jumlah Siswa</th>
+                                            <th>Status</th>
+                                            <th>Action</th>
+                                        </tr>
+                                    </tfoot>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>Mahiru Shiina</td>
+                                            <td>A</td>
+                                            <td>20</td>
+                                            <td><span class="badge badge-pill badge-success">Active</span></td>
+                                            <td>
+                                                <a href="" class="btn btn-warning">
+                                                    <i class="fas fa-pen-square    "></i>
+                                                </a>
+                                                <a href="" class="btn btn-danger">
+                                                    <i class="fa fa-trash" aria-hidden="true"></i>
+                                                </a>
+                                            </td>
+
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
                 <!-- /.container-fluid -->
 
@@ -30,7 +85,7 @@
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Your Website 2021</span>
+                        <span>Copyright &copy; Absensi Kelas</span>
                     </div>
                 </div>
             </footer>
