@@ -1,0 +1,110 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  h1 {
+    padding: 20px;
+    font-weight: bold;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  table {
+    width: 100%;
+  }
+  thead{
+    text-align: center;
+  }
+  
+  th, td {
+    text-align: center;
+
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  .btn-action{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+  }
+  .edit{
+    background-color: #FB6B03;
+  }
+  .delete{
+    background-color: #FF462D;
+  }
+/*----------------------------BTN-PAGINATION-------------------------------*/
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .btn-pagination {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    margin: 0 10px;
+    cursor: pointer;
+    background-color: transparent;
+  }  
+/*------------------------STATUS-----------------------------*/
+  .con-status{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .status{
+    width: 150px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    display: flex;
+    text-align: center;
+  }
+  /*-------------------------PAGE------------------------------*/
+  .page{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .con-page{
+    display: flex;
+    gap: 2rem;
+  }
+
+  /*-------------------------ANIMATION------------------------------*/
+  .edit:hover{
+    background-color: #ac500f;
+  }
+  .edit:active{
+    background-color: #fd8e3f;
+  }
+  .delete:hover{
+    background-color: #b32816;
+  }
+  .delete:active{
+    background-color: #ff6450;
+  }

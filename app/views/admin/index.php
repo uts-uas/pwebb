@@ -1,3 +1,4 @@
+<link href="" rel="stylesheet" type="text/css">
 <body id="page-top">
 
     <!-- Page Wrapper -->
@@ -18,19 +19,89 @@
                 <!-- End of Topbar -->
 
                 <!-- Begin Page Content -->
-                <div class="container-fluid">
-                    <h1>JOOOSS</h1>
+<!--============================================================-->
+<!--////////////////////////////////////////////////////////////-->
+<!--============================================================-->
+
+                <!--bungkus keseluruhan content--> 
+
+                 <div class="pembungkus-general">
+
+                    <!--bungkus content guru--> 
+
+                 <div class=" d-flex bungkus-content1">
+                    <div class="d-flex  guru">
+                        <div class="bungkus-3-guru d-flex">
+                            <div class="stroke-guru"></div>
+                            <div class="con-title d-flex">
+                                    <p id="title-guru">GURU</p>
+                                    <h4 id="jumlah">3</h3>
+                            </div>
+                            <div class="con-img d-flex">
+                                <div class="frame-img">
+                                    <i class="fa-solid fa-user"></i>
+                                 </div>
+                            </div>
+                            
+                        </div>   
+                    <div>   <!--@@@@@@INI KU BINGUNG KALO DIHAPUS MALAH NGEBUG TAMPILANNYA@@@@@-->
+                </div>   
                 </div>
+
+                    <!--------------------SISWA----------------------->
+
+                    <div class=" d-flex siswa">
+                        <div class="bungkus-3 d-flex">
+                            <div class="stroke-siswa"></div>
+                                <div class="con-title d-flex">
+                                    <p id="title-siswa">SISWA</p>
+                                    <h4 id="jumlah">20</h3>
+                                </div>
+                            <div class="con-img d-flex">
+                                <div class="frame-img">
+                                     <i class="fa-solid fa-user"></i>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--------------------kelas----------------------->
+
+                <div class="bungkus-content2">
+                    <div class="d-flex kelas">
+                        <div class="bungkus-3-kelas d-flex">
+                             <div class="stroke-kelas"></div>
+                                <div class="con-title d-flex">
+                                    <p id="title-kelas">KELAS</p>
+                                    <h3 id="jumlah">1</h3>
+                                </div>  
+                            <div class="con-img d-flex">
+                                <div class="frame-img">
+                                    <i class="fa-solid fa-house-user"></i>
+                                </div>
+                            </div>
+                            </div>     
+                        </div>
+                    </div>
+                </div>
+               
                 <!-- /.container-fluid -->
 
+            <!--end bungkus keseluruhan content--> 
+
             </div>
+<!--============================================================-->
+<!--\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\-->
+<!--============================================================-->
+            
             <!-- End of Main Content -->
 
             <!-- Footer -->
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Your Website 2021</span>
+                        <span>Copyright &copy; Absensi Kelas</span>
                     </div>
                 </div>
             </footer>

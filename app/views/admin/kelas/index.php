@@ -19,7 +19,182 @@
 
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
-                    <h1>Manajement Kelas</h1>
+
+                    <!-------------------START TABEL------------------------>
+
+    <div class="container">
+        <h1>Manajemen Kelas</h1>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Kelas</th>
+                    <th>Nama Guru</th>
+                    <th>Jumlah Siswa</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="row">
+                    <td>1</td>
+                    <td>A</td>
+                    <td>Kurama Neo</td>
+                    <td>20</td>
+                    <td>
+                        <div class="con-status">
+                            <p class="status">Aktif</p>
+                        </div>
+                    </td>
+                    <td>
+                        <button class="btn-action edit">
+                            <img src="../public/img/edit.png">
+                        </button>
+                        <button class="btn-action delete">
+                            <img src="../public/img/trash-can.png">
+                        </button>
+                    </td>
+                </tr>
+                <tr id="row">
+                    <td>2</td>
+                    <td>A</td>
+                    <td>Shuna kaira</td>
+                    <td>20</td>
+                    <td>
+                        <div class="con-status">
+                            <p class="status">Aktif</p>
+                        </div>
+                    </td>
+                    <td>
+                        <button class="btn-action edit">
+                            <img src="../public/img/edit.png">
+                        </button>
+                        <button class="btn-action delete">
+                            <img src="../public/img/trash-can.png">
+                        </button>
+                    </td>
+                </tr>
+                <tr id="row">
+                    <td>3</td>
+                    <td>A</td>
+                    <td>Mahiru shiina</td>
+                    <td>14</td>
+                    <td>
+                        <div class="con-status">
+                            <p class="status">Aktif</p>
+                        </div>
+                    </td>
+                    <td>
+                        <button class="btn-action edit">
+                            <img src="../public/img/edit.png">
+                        </button>
+                        <button class="btn-action delete">
+                            <img src="../public/img/trash-can.png">
+                        </button>
+                    </td>
+                </tr>
+                <tr id="row">
+                    <td>4</td>
+                    <td>A</td>
+                    <td>Joko widodo</td>
+                    <td>14</td>
+                    <td>
+                        <div class="con-status">
+                            <p class="status">Aktif</p>
+                        </div>
+                    </td>
+                    <td>
+                        <button class="btn-action edit">
+                            <img src="../public/img/edit.png">
+                        </button>
+                        <button class="btn-action delete">
+                            <img src="../public/img/trash-can.png">
+                        </button>
+                    </td>
+                </tr>
+                <tr id="row">
+                    <td>4</td>
+                    <td>A</td>
+                    <td>Prabowo Subianto</td>
+                    <td>14</td>
+                    <td>
+                        <div class="con-status">
+                            <p class="status">Aktif</p>
+                        </div>
+                    </td>
+                    <td>
+                        <button class="btn-action edit">
+                            <img src="../public/img/edit.png">
+                        </button>
+                        <button class="btn-action delete">
+                            <img src="../public/img/trash-can.png">
+                        </button>
+                    </td>
+                </tr>
+                <tr id="row">
+                    <td>5</td>
+                    <td>A</td>
+                    <td>Ganjar Pranowo</td>
+                    <td>14</td>
+                    <td>
+                        <div class="con-status">
+                            <p class="status">Aktif</p>
+                        </div>
+                    </td>
+                    <td>
+                        <button class="btn-action edit">
+                            <img src="../public/img/edit.png">
+                        </button>
+                        <button class="btn-action delete">
+                            <img src="../public/img/trash-can.png">
+                        </button>
+                    </td>
+                </tr>
+                <tr id="row">
+                    <td>6</td>
+                    <td>A</td>
+                    <td>Osama bin Laden</td>
+                    <td>14</td>
+                    <td>
+                        <div class="con-status">
+                            <p class="status">Aktif</p>
+                        </div>
+                    </td>
+                    <td>
+                        <button class="btn-action edit">
+                            <img src="../public/img/edit.png">
+                        </button>
+                        <button class="btn-action delete">
+                            <img src="../public/img/trash-can.png">
+                        </button>
+                    </td>
+                </tr>
+              
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="page">
+                        <div class="con-page d-flex">
+                            <p>Row per page 5</p>
+                            <p>1-5 of 9</p>
+                        </div>
+                    </td>
+                    <td colspan="5">
+                        <div class="pagination">
+                            <button class="btn-pagination prev"> << </button>
+                            <button class="btn-pagination prev"> < </button>
+                            <button class="btn-pagination next"> > </button>
+                            <button class="btn-pagination next"> >> </button>
+                        </div>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+<!-------------------END TABEL------------------------>
                 </div>
                 <!-- /.container-fluid -->
 
@@ -30,7 +205,7 @@
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Your Website 2021</span>
+                        <span>Copyright &copy; Absensi Kelas</span>
                     </div>
                 </div>
             </footer>

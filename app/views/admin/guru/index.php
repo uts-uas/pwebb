@@ -19,25 +19,207 @@
 
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
-                    <h1>Manajement Guru</h1>
+
+                    <!--------------START TABLE------------------>
+
+                    <div class="container">
+                        <h1>Manajemen Guru</h1>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Nama Guru</th>
+                                    <th>Kelas</th>
+                                    <th>Status</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr id="row">
+                                    <td>1</td>
+                                    <td>Kurama Neo</td>
+                                    <td>A</td>
+                                    <td>
+                                        <div class="con-status">
+                                            <p class="status">Aktif</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <button class="btn-action edit">
+                                            <i class="fa-solid fa-pen"></i>
+                                        </button>
+                                        <button class="btn-action delete">
+                                            <i class="fa-solid fa-trash-can"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr id="row">
+                                    <td>2</td>
+                                    <td>Shani Indiria</td>
+                                    <td>A</td>
+                                    <td>
+                                        <div class="con-status">
+                                            <p class="status">Aktif</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <button class="btn-action edit">
+                                            <i class="fa-solid fa-pen"></i>
+                                        </button>
+                                        <button class="btn-action delete">
+                                            <i class="fa-solid fa-trash-can"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr id="row">
+                                    <td>3</td>
+                                    <td>Mahiru Shiina</td>
+                                    <td>A</td>
+                                    <td>
+                                        <div class="con-status">
+                                            <p class="status">Aktif</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <button class="btn-action edit">
+                                            <i class="fa-solid fa-pen"></i>
+                                        </button>
+                                        <button class="btn-action delete">
+                                            <i class="fa-solid fa-trash-can"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr id="row">
+                                    <td>4</td>
+                                    <td>Chindy Yupia</td>
+                                    <td>A</td>
+                                    <td>
+                                        <div class="con-status">
+                                            <p class="status">Nonaktif</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <button class="btn-action edit">
+                                            <i class="fa-solid fa-pen"></i>
+                                        </button>
+                                        <button class="btn-action delete">
+                                            <i class="fa-solid fa-trash-can"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr id="row">
+                                    <td>5</td>
+                                    <td>Kanroji Mitsuri</td>
+                                    <td>A</td>
+                                    <td>
+                                        <div class="con-status">
+                                            <p class="status">Aktif</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <button class="btn-action edit">
+                                            <i class="fa-solid fa-pen"></i>
+                                        </button>
+                                        <button class="btn-action delete">
+                                            <i class="fa-solid fa-trash-can"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr id="row">
+                                    <td>6</td>
+                                    <td>Asuka kawata</td>
+                                    <td>A</td>
+                                    <td>
+                                        <div class="con-status">
+                                            <p class="status">Aktif</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <button class="btn-action edit">
+                                            <i class="fa-solid fa-pen"></i>
+                                        </button>
+                                        <button class="btn-action delete">
+                                            <i class="fa-solid fa-trash-can"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                                <tr id="row">
+                                    <td>7</td>
+                                    <td>Hana Aguerella</td>
+                                    <td>A</td>
+                                    <td>
+                                        <div class="con-status">
+                                            <p class="status">Nonaktif</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <button class="btn-action edit">
+                                            <i class="fa-solid fa-pen"></i>
+                                        </button>
+                                        <button class="btn-action delete">
+                                            <i class="fa-solid fa-trash-can"></i>
+                                        </button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td class="page">
+                                        <div class="con-page d-flex">
+                                            <p>Row per page 5</p>
+                                            <p>1-5 of 9</p>
+                                        </div>
+                                    </td>
+                                    <td colspan="5">
+                                        <div class="pagination">
+                                            <button class="btn-pagination prev">
+                                                <a>
+                                                    <<< /a>
+                                            </button>
+                                            <button class="btn-pagination prev">
+                                                <a>
+                                                    << /a>
+                                            </button>
+                                            <button class="btn-pagination next">
+                                                <a>></a>
+                                            </button>
+                                            <button class="btn-pagination next">
+                                                <a>>></a>
+                                            </button>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+
+                    <!--------------END TABLE------------------>
+
                 </div>
                 <!-- /.container-fluid -->
 
             </div>
-            <!-- End of Main Content -->
-
-            <!-- Footer -->
-            <footer class="sticky-footer bg-white">
-                <div class="container my-auto">
-                    <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Your Website 2021</span>
-                    </div>
-                </div>
-            </footer>
-            <!-- End of Footer -->
-
         </div>
-        <!-- End of Content Wrapper -->
+        <!-- /.container-fluid -->
+
+    </div>
+    <!-- End of Main Content -->
+
+    <!-- Footer -->
+    <footer class="sticky-footer bg-white">
+        <div class="container my-auto">
+            <div class="copyright text-center my-auto">
+                <span>Copyright &copy; Absensi kelas</span>
+            </div>
+        </div>
+    </footer>
+    <!-- End of Footer -->
+
+    </div>
+    <!-- End of Content Wrapper -->
 
     </div>
     <!-- End of Page Wrapper -->
