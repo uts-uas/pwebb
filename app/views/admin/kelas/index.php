@@ -20,6 +20,10 @@
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
 
+                    <button class="btn btn-primary mb-3">
+                        Add Class
+                    </button>
+
                     <!-- DataTales Example -->
                     <div class="card shadow mb-4">
                         <div class="card-header py-3">
